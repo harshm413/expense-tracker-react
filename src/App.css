@@ -1,0 +1,135 @@
+/* App.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #0057fa;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+}
+
+.balance-box {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-transaction {
+    font-size: 15px;
+    background: #0d1d2c;
+    display: flex;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    flex-direction: row;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.add-transaction-cancel {
+    background-color: #e74c3c; /* Red for cancel button */
+}
+
+.add-transaction-add {
+    background-color: #2ecc71; /* Green for add button */
+}
+
+.add-transaction-view {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.add-transaction-view input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.radio-and-add-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.radio-box {
+    display: flex;
+}
+
+.radio-box input {
+    margin-right: 5px;
+}
+
+.add-transaction-btn {
+    background-color: #000000;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.expense-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.expense-box,
+.income-box {
+    border-radius: 4px;
+    padding: 15px 20px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.expense-box {
+    color: #ff0000; /* Red color for expense */
+}
+
+.income-box {
+    color: #008000; /* Green color for income */
+}
+
+.expense-box span,
+.income-box span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.transaction-cell-income {
+    background-color: #2ecc71; /* Green for income */
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.transaction-cell-expense {
+    background-color: #e74c3c; /* Red for expense */
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
